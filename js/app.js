@@ -7,11 +7,12 @@ function scrollTo(element) {
 	})
 }
 
-let button = document.querySelector('#btn');
-let section = document.querySelector('#section');
+const button = document.querySelector('#btn');
+const footer = document.querySelector('#section');
 button.value = 'pit';
 
 button.addEventListener('click', function () {
 	scrollTo(section);
 
 });
+
