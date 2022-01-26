@@ -8,10 +8,10 @@ function scrollTo(element) {
 }
 
 const button = document.querySelector('#btn');
-const footer = document.querySelector('#footer');
+const footer = document.querySelector('#section');
 button.value = 'pit';
 
 button.addEventListener('click', function () {
-	scrollTo(footer);
+	scrollTo(section);
 
 });
